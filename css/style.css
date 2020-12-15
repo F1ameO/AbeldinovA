@@ -1,0 +1,23 @@
+:root {
+    box-sizing: border-box;
+    font-size: 16px;
+    --color-text-gray: #777777;
+    --color-text-black: #222222;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrap {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
