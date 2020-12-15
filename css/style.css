@@ -20,4 +20,93 @@ body{
 	margin: 0 auto;
 	padding: 0 1em;
 }
-
+.header-main{
+	height: 1000px;
+	align-items: center;
+}
+.main__img{
+	background-image: url('../img/main-img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	text-align: center;
+}
+.line {
+    position: absolute;
+    display:flex;
+    top: 520px;
+    left: 365px;
+}
+.line__item {
+    width: calc(45vw + 5rem);
+    border-bottom: 2px solid;
+    color: #ffffff;
+}
+.line__bot {
+    position: absolute;
+    display:flex;
+    top: 586px;
+    left: 365px;
+}
+.main__text{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 3.75rem;
+	padding-top: 525px;
+}
+.main__btn {
+  font-weight: 520;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  transition: 0.2s;
+  display: block;
+  margin: 0 auto;
+  max-width: 155px;
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+}
+.main__menu{
+	height: 72px;
+	background-color: #252e30;
+	display: flex;
+}
+.nav{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__item1{
+	padding-top: 30px;
+	margin-left: 250px;
+}
+.nav__item{
+	padding-top: 30px;
+	margin-left: 30px;
+}
+.nav__link{
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav__link:hover{
+	color: black;
+}
+.logo{
+	padding-top: 15px;
+	padding-left: 210px;
+}
+.main_logo-text{
+	text-transform: uppercase;
+	font-size: 1.875rem;
+	font-weight: bold;
+	padding-top: 22px;
+	padding-left: 18px;
+	color: white;
+}
+.block__span{
+	color: #2ecc71;
+}
