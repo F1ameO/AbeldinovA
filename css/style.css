@@ -585,3 +585,29 @@ body{
 	background-color: #acadac;
     box-shadow: 0 3px #acadac inset;
 }
+/* FOOTER*/
+.footback{
+	background-color: #191f21;
+	background-repeat: no-repeat;
+	height: 177px;
+	align-items: center;
+}
+.footxt{
+	font-size: 1.125rem;
+	padding-top: 50px;
+	color: #575c5d;
+	line-height: 30px;
+	text-align: center;
+	color: #444d4f;
+	margin-bottom: 40px;
+}
+.foot__flex{
+	display: flex;
+	flex-direction: row;
+}
+.footmage{
+	margin-left: 600px;
+}
+.footplex{
+	margin-left: 10px;
+}
